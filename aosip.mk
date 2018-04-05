@@ -40,3 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="OnePlus/OnePlus/OnePlus:6.0.1/MMB29M/10281213:user/release-keys" \
     PRIVATE_BUILD_DESC="OnePlus-user 6.0.1 MMB29M 10281213 release-keys"
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+        DEVICE_MAINTAINERS="Saket Sawrav(I-m-mortal)"
