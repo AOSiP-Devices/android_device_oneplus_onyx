@@ -194,6 +194,11 @@ TARGET_NO_RPC := true
 # BOARD_SEPOLICY_DIRS += \
 #     $(PLATFORM_PATH)/sepolicy
 
+# SHIMS
+TARGET_LD_SHIM_LIBS := \
+    /system/lib/libgui.so|libshims_sensors.so \
+    /system/vendor/lib/libmmcamera2_stats_algorithm.so|libshims_atomic.so
+
 # SnapDragon LLVM Compiler
 TARGET_USE_SDCLANG := true
 
